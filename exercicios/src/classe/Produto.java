@@ -10,6 +10,14 @@ public class Produto {
 		
 	}
 	
+	Produto(String nomeInicial) {
+		nome = nomeInicial;
+	}
+	
+	Produto(double precoInicial) {
+		preco = precoInicial;
+	}
+	
 	Produto(String nomeInicial, double precoInicial) {
 		nome = nomeInicial;
 		preco = precoInicial;
