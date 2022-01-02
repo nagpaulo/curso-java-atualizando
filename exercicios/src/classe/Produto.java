@@ -23,11 +23,6 @@ public class Produto {
 		preco = precoInicial;
 	}
 	
-	Produto(String nomeInicial, double precoInicial) {
-		nome = nomeInicial;
-		preco = precoInicial;
-	}
-	
 	double precoComDesconto() {
 		return preco * (1 - desconto);
 	}
